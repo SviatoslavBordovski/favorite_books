@@ -10,7 +10,7 @@ Create new dealer with won car locally in VS Code IDE
 
 generateInLoop(1, 'IN', 'sviatoslav.test.peugeot.in@frontiercargroup.com', '123456')
 
-Number '1' => amount of won cars on auctions (max 20 supported)
+Number '1' => amount of won cars on auctions (max =< 20 supported)
 Email and numbers => dealer's email and password
 
 You can set any credentials there ;)
