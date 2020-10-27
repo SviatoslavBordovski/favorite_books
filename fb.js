@@ -14,7 +14,7 @@ function addFavoriteBook(bookName) { // adding all books with bookName to
     console.log('Favorite Books: ' + favoriteBooks.length)
 
     for(let bookName of favoriteBooks) {
-        console.log(bookName);
+        console.log(bookName + ' is fantastic');
     }
 }
 
