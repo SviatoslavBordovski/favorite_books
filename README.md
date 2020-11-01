@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 I have made an instruction with proper steps for setting up the financing-admin project locally since we do not have a readme.md for that purpose in gitlab.
 1. Open CLI Git clone <link>
 Note: that it won't work with 2FA.
@@ -41,3 +42,6 @@ https://gitlab.com/help/ssh/README#rsa-ssh-keys
 8. npm run createModelBasedPlans
 9. npm run customerLoginModel_SIMPLE_ChileCountry_finalStateState_plan => plans are available in tests/uiTests/package.json file (command would run tests locally in uiTests folder only!)
 10. Go to master branch and run git pull origin master
+=======
+# favorite_books
+>>>>>>> 6d57f90508c05a0aad782490df28c15d90d57ac3
