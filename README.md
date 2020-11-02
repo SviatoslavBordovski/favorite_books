@@ -4,21 +4,20 @@
 
 <div class="container">
 
-<h5>Financing-admin setup</h5>
+<h3>Financing-admin setup</h3>
 
 <ol>
 
-
 <li> Open CLI and type <code>git clone <b>link</b></code>
-<hr>
+<br>
 Note: that it won't work with 2FA.
-<hr>
+<br>
 Fix: disable 2FA-clone project-enable 2FA again or do the operation with ssh key having 2FA
-<hr>
+<br>
 Latest instruction for ssh key update/creation is <a href="https://gitlab.com/help/ssh/README#rsa-ssh-keys">here</a>
 </li>
 
-<li>[Skip this step if you have latest ssh in gitlab] Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your local machine or specify passphrase set during the ssh key creation.</li>
+<li><i>Skip this step if you have latest ssh in gitlab</i> Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your local machine or specify passphrase set during the ssh key creation.</li>
 
 <li>Go to tests/uiTests/config/ folder and change data of 2 files:
 
