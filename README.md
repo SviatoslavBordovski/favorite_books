@@ -17,47 +17,49 @@ Fix: disable 2FA-clone project-enable 2FA again or do the operation with ssh key
 Latest instruction for ssh key update/creation is <a href="https://gitlab.com/help/ssh/README#rsa-ssh-keys">here</a>
 </li>
 
-<li><i>Skip this step if you have latest ssh in gitlab</i> Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your local machine or specify passphrase set during the ssh key creation.</li>
+<li><i>Skip this step if you have latest ssh in gitlab</i>
+<br>
+Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your local machine or specify passphrase set during the ssh key creation.</li>
 
 <li>Go to tests/uiTests/config/ folder and change data of 2 files:
 
 <li>Create new <code>testConfig.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
 <code>
-{
-  "testConfig": {
-    "systemPrefix": "peugeot.", //Your personal environment brand name, '.' is required to make config work
-    "systemPort": "",
-    "buildIp": "",
-    "mode": "web"
-  }
-}
+<br>{
+<br>  "testConfig": {
+<br>    "systemPrefix": "peugeot.", //Your personal environment brand name, '.' is required to make config work
+<br>    "systemPort": "",
+<br>    "buildIp": "",
+<br>    "mode": "web"
+<br>  }
+<br>}
 </code>
 </li>
 
 <li>Create new <code>testUserCredetials.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
 <code>
-{
-    "superadmin": {
-        "login": "test@frontiercargroup.com",
-        "password": "i love to test 2018"
-    },
-    "prodUser": {
-        "login": "test@frontiercargroup.com",
-        "password": "i love to test 2018"
-    }
-}
+<br>{
+<br>    "superadmin": {
+<br>        "login": "test@frontiercargroup.com",
+<br>        "password": "i love to test 2018"
+<br>    },
+<br>    "prodUser": {
+<br>        "login": "test@frontiercargroup.com",
+<br>        "password": "i love to test 2018"
+<br>    }
+<br>}
 </code>
 </li>
 
 <li>Create new <code>api.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
 <code>
-{
-  "auth": "https://api-peugeot.fcg.dev/auth/",
-  "cardata": "https://api-peugeot.fcg.dev/cardata/",
-  "inspection": "https://api-peugeot.fcg.dev/inspection/",
-  "auction": "https://api-peugeot.fcg.dev/auction/",
-  "financing": "https://api-peugeot.fcg.dev/financing/"
-}
+<br>{
+<br>  "auth": "https://api-peugeot.fcg.dev/auth/",
+<br>  "cardata": "https://api-peugeot.fcg.dev/cardata/",
+<br>  "inspection": "https://api-peugeot.fcg.dev/inspection/",
+<br>  "auction": "https://api-peugeot.fcg.dev/auction/",
+<br>  "financing": "https://api-peugeot.fcg.dev/financing/"
+<br>}
 </code>
 </li>
 
