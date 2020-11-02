@@ -33,7 +33,7 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 
 </li>
 
-<li>Create new <code>testUserCredetials.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
+<li>Create new <code>testUserCredentials.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
 <br>{
 <br>    "superadmin": {
 <br>        "login": "test@test.com",
