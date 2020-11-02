@@ -26,7 +26,7 @@ addFavoriteBook("Crime & Punishment");
 addFavoriteBook("Great Expectations");
 addFavoriteBook("You Don't Know JS");
 
-//console.log(favoriteBooks);
+// console.log(favoriteBooks);
 
 // TODO: print out favorite books
 
