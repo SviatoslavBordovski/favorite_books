@@ -21,8 +21,6 @@ Latest instruction for ssh key update/creation is <a href="https://gitlab.com/he
 <br>
 Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your local machine or specify passphrase set during the ssh key creation.</li>
 
-<li>Go to tests/uiTests/config/ folder and change data of 2 files:
-
 <li>Create new <code>testConfig.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
 <br>{
 <br>  "testConfig": {
