@@ -2,8 +2,8 @@
 
 // TODO: define printFavoriteBooks() function
 
-function addFavoriteBook(bookName) { // adding all books with bookName to 
-    // the 'favoriteBooks' array that do not include the 'Great' word
+function addFavoriteBook(bookName) { // adding all books with bookName 
+    // to 'favoriteBooks' array that do not include the 'Great' word
     if (!bookName.includes("Great")){
         favoriteBooks.push(bookName);
     }
