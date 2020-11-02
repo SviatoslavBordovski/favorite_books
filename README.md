@@ -40,12 +40,12 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 
 <br>{
 <br>    "superadmin": {
-<br>        "login": "test@frontiercargroup.com",
-<br>        "password": "i love to test 2018"
+<br>        "login": "test@test.com",
+<br>        "password": "2020"
 <br>    },
 <br>    "prodUser": {
-<br>        "login": "test@frontiercargroup.com",
-<br>        "password": "i love to test 2018"
+<br>        "login": "test@test.com",
+<br>        "password": "2020"
 <br>    }
 <br>}
 
@@ -54,11 +54,11 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 <li>Create new <code>api.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
 
 <br>{
-<br>  "auth": "https://api-peugeot.fcg.dev/auth/",
-<br>  "cardata": "https://api-peugeot.fcg.dev/cardata/",
-<br>  "inspection": "https://api-peugeot.fcg.dev/inspection/",
-<br>  "auction": "https://api-peugeot.fcg.dev/auction/",
-<br>  "financing": "https://api-peugeot.fcg.dev/financing/"
+<br>  "auth": "link",
+<br>  "cardata": "link",
+<br>  "inspection": "link",
+<br>  "auction": "link",
+<br>  "financing": "link"
 <br>}
 
 </li>
