@@ -10,7 +10,7 @@ function addFavoriteBook(bookName) { // adding all books with bookName to
 }
 
  function printFavoriteBooks() { // prints array length 
-    //and every bookName of the favoriteBooks array
+    // and every bookName of the favoriteBooks array
     console.log('Favorite Books: ' + favoriteBooks.length)
 
     for(let bookName of favoriteBooks) {
