@@ -24,10 +24,9 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 <li>Go to tests/uiTests/config/ folder and change data of 2 files:
 
 <li>Create new <code>testConfig.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
-
 <br>{
 <br>  "testConfig": {
-<br>    "systemPrefix": "peugeot.", //Your personal environment brand name, '.' is required to make config work
+<br>    "systemPrefix": "peugeot.", //Your personal environment brand name, <code>.</code> is required to make config work
 <br>    "systemPort": "",
 <br>    "buildIp": "",
 <br>    "mode": "web"
@@ -37,7 +36,6 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 </li>
 
 <li>Create new <code>testUserCredetials.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
-
 <br>{
 <br>    "superadmin": {
 <br>        "login": "test@test.com",
@@ -52,7 +50,6 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 </li>
 
 <li>Create new <code>api.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
-
 <br>{
 <br>  "auth": "link",
 <br>  "cardata": "link",
