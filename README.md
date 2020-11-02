@@ -24,7 +24,7 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 <li>Go to tests/uiTests/config/ folder and change data of 2 files:
 
 <li>Create new <code>testConfig.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
-<code>
+
 <br>{
 <br>  "testConfig": {
 <br>    "systemPrefix": "peugeot.", //Your personal environment brand name, '.' is required to make config work
@@ -33,11 +33,11 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 <br>    "mode": "web"
 <br>  }
 <br>}
-</code>
+
 </li>
 
 <li>Create new <code>testUserCredetials.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
-<code>
+
 <br>{
 <br>    "superadmin": {
 <br>        "login": "test@frontiercargroup.com",
@@ -48,11 +48,11 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 <br>        "password": "i love to test 2018"
 <br>    }
 <br>}
-</code>
+
 </li>
 
 <li>Create new <code>api.json</code> file in <code>tests/uiTests/config/</code> folder with next data:
-<code>
+
 <br>{
 <br>  "auth": "https://api-peugeot.fcg.dev/auth/",
 <br>  "cardata": "https://api-peugeot.fcg.dev/cardata/",
@@ -60,7 +60,7 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 <br>  "auction": "https://api-peugeot.fcg.dev/auction/",
 <br>  "financing": "https://api-peugeot.fcg.dev/financing/"
 <br>}
-</code>
+
 </li>
 
 <li> <code>cd ~/.../financing-admin/tests/uiTests</code> (Path to the folder)</li>
