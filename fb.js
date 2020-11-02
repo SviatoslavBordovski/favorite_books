@@ -1,4 +1,4 @@
-// TODO: define addFavoriteBook(..) function
+// TODO: define addFavoriteBook(...) function
 
 // TODO: define printFavoriteBooks() function
 
