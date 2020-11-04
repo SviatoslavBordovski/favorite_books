@@ -58,13 +58,11 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 
 </li>
 
-<li> <code>cd ~/.../financing-admin/tests/uiTests</code> (Path to the folder)</li>
+<li> <code>Navigate to <code>financing-admin/tests/uiTests</code> folder</li>
 <li> <code>npm install</code> </li>
-<li> <code>npm audit fix</code> </li>
-<li> <code>npm install nodejs</code> </li>
 <li> <code>npm run createModelBasedPlans</code> </li>
 <li> <code>npm run customerLoginModel_SIMPLE_ChileCountry_finalStateState_plan</code> => plans are available in <code>tests/uiTests/package.json</code> file (command would run tests locally in <code>tests/uiTests</code> folder only!) </li>
-<li> Go to master branch and run <code>git pull origin master</code> </li>
+<li> Whenever you need to update your local branch go to master branch and run <code>git pull origin master</code> </li>
 
 </ol>
 </div>
