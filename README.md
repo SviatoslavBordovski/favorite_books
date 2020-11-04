@@ -58,7 +58,7 @@ Paste <code>ssh.pub</code>, now it is called <code>id_rsa.pub</code> on your loc
 
 </li>
 
-<li> <code>Navigate to <code>financing-admin/tests/uiTests</code> folder</li>
+<li>Navigate to <code>financing-admin/tests/uiTests</code> folder</li>
 <li> <code>npm install</code> </li>
 <li> <code>npm run createModelBasedPlans</code> </li>
 <li> <code>npm run customerLoginModel_SIMPLE_ChileCountry_finalStateState_plan</code> => plans are available in <code>tests/uiTests/package.json</code> file (command would run tests locally in <code>tests/uiTests</code> folder only!) </li>
